@@ -8,46 +8,51 @@
   <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700" rel="stylesheet">
 </head>
 <body>
-
-  <div class="masthead">
-    <h1>
-      <img src="images/logo.svg">
-      <span>Arrrgene’s Treasure Tours</span>
-    </h1>
-    <div class="nav" role="navigation">
-      <ul>
-        <li><a href="#">Tours</a></li>
-        <li><a href="#">Ships</a></li>
-        <li><a href="#">Tickets</a></li>
-      </ul>
+  <header role="banner">
+    <div class="masthead">
+      <h1>
+        <img src="images/logo.svg" alt="Arrrgene's Treasure Tours anchor logo">
+        <span>Arrrgene’s Treasure Tours</span>
+      </h1>
+      <nav role="navigation">
+        <div class="nav">
+          <ul>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Ships</a></li>
+            <li><a href="#">Tickets</a></li>
+          </ul>
+        </div>
+      </nav>
     </div>
-  </div>
-
-  <div role="main">
-
-    <div class="banner">
-      <img src="images/banner.jpg">
-      <div>
-        <h2>Ahoy, me Hearties!</h2>
-        <p>Batten down the hatches and sail me corsair to plentiful doubloons.</p>
-        <a href="#">Book a tour</a>
+  </header>
+  <main>
+    <div role="main">
+      <div class="banner">
+        <img src="images/banner.jpg" alt="Background image of world map">
+        <div>
+          <section>
+            <h2>Ahoy, me Hearties!</h2>
+            <p>Batten down the hatches and sail me corsair to plentiful doubloons.</p>
+            <a href="#">Book a tour</a>
+          </section>
+        </div>
       </div>
+      <article>
+        <div class="ship">
+          <div class="card">
+            <img src="images/ship.svg" alt="Graphic image of pirate ship">
+            <h2>Heave Ho!</h2>
+            <p>Weigh anchor and hoist the mizzen, ya old salt, aboard shipshape <i>Arrrgonaut</i>.</p>
+            <a href="#">See the specs</a>
+          </div>
+        </div>
+      </article>
     </div>
-
-    <div class="ship">
-      <div class="card">
-        <img src="images/ship.svg">
-        <h2>Heave Ho!</h2>
-        <p>Weigh anchor and hoist the mizzen, ya old salt, aboard shipshape <i>Arrrgonaut</i>.</p>
-        <a href="#">See the specs</a>
-      </div>
+  </main>
+  <footer role="contentinfo">
+    <div class="footer">
+      <p>© Arrrgene’s Treasure Tours</p>
     </div>
-
-  </div>
-
-  <div class="footer">
-    <p>© Arrrgene’s Treasure Tours</p>
-  </div>
-
+  </footer>
 </body>
 </html>
