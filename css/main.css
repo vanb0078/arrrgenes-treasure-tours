@@ -149,3 +149,8 @@ body {
 .footer * {
   margin: 0;
 }
+
+a:hover {
+  outline: .15rem solid #bea59b;
+  outline-offset: .2rem;
+}
