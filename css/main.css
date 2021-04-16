@@ -151,6 +151,19 @@ body {
 }
 
 a:hover {
-  outline: .15rem solid #bea59b;
+  outline: .15rem solid #fff;
+  outline-offset: .2rem;
+}
+
+section > a:hover {
+  background-color: #bea59b;
+  color: #fff;
+  outline: .3rem solid #fff;
+  outline-offset: .2rem;
+}
+
+.card a:hover {
+  color: #522806;
+  outline: .3rem solid #522806;
   outline-offset: .2rem;
 }
